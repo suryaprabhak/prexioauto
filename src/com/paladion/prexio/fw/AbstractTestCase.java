@@ -14,6 +14,9 @@ public abstract class AbstractTestCase {
 		testProps.setProperty("username", username);
 		testProps.setProperty("password", password);
 		
+		//TODO Load selenium webdriver and open Prexio login page here
+		//That is required for every test
+		
 		test();
 	}
 	
