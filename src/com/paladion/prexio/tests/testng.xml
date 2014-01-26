@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1" verbose="1">
+	<parameter name="username" value="prexioglobal@paladion.net"/>
+	<parameter name="password" value="xsw12345"/>
+	<test name="Test1">
+		<packages>
+			<package name="com.paladion.prexio.tests"/>
+		</packages>
+	</test>
+</suite>
